@@ -1,0 +1,67 @@
+#div-1{
+	width: 250px;
+	min-height: 250px;
+	background-color: red;
+}
+
+#div-2{
+	width: 100%;
+	min-height: 50px;
+	background-color: white;
+}
+
+#div-3{
+	width: 500px;
+	min-height: 50px;
+	background-color: blue;
+}
+
+#div-list{
+	color: white;
+	font-size: 18px;
+	font-family: "Verdana";
+}
+
+#tab{
+	width: 300px;
+	color: white;
+	font-size: 32px;
+	border-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-collapse: collapse;
+}
+
+.red-block{
+	background-color: red;
+}
+
+.green-block{
+	background-color: green;
+}
+
+td{
+	border-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-collapse: collapse;
+}
+tr{
+	border-color: white;
+	border-style: solid;
+	border-width: 3px;
+	border-collapse: collapse;
+}
+
+ul{
+	list-style-image: url("../marker.jpg");
+}
+
+body{
+	max-width: 1920px;
+	min-height: 100%;
+	width: 50%;
+	background-image: url("../back.jpg");
+	background-repeat: repeat;
+}
+
