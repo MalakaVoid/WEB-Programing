@@ -71,6 +71,7 @@ body{
 	height: 100%;
 	display: inline-block;
     vertical-align: top;
+    white-space:nowrap;
 }
 
 .colage{
@@ -80,4 +81,5 @@ body{
 	overflow: hidden;
     overflow-x: scroll;    
     white-space:nowrap;
+    font-size: 0px;
 }
