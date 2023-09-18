@@ -66,3 +66,18 @@ body{
 .back:hover{
 	color: gray;
 }
+
+.sup-img{
+	height: 100%;
+	display: inline-block;
+    vertical-align: top;
+}
+
+.colage{
+	width: 100%;
+	min-height: 400px;
+	height: 400px;
+	overflow: hidden;
+    overflow-x: scroll;    
+    white-space:nowrap;
+}
