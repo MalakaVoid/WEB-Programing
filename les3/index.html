@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LES 3</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<form action="1.php" method="GET">
+		<table id="main_table">
+			<tr>
+				<td colspan="2" align="center">
+					<h3>FORM</h3>
+				</td>
+			</tr>
+			<tr>
+				<td class="desc">Имя</td>
+				<td><input type="text" name="nm" placeholder="Ваше имя..." class="block_fr"></td>
+			</tr>
+			<tr>
+				<td class="desc" align="left">Тип товара</td>
+				<td>
+					<input type="radio" name="tp" value="1" id="tovar1" checked required><label for="tovar1"> 1</label><br>
+					<input type="radio" name="tp" id="tovar2" value="2"><label for="tovar2"> 2</label><br>
+					<input type="radio" name="tp" value="3" id="tovar3"><label for="tovar3"> 3</label>
+				</td>
+			</tr>
+			<tr>
+				<td class="desc">Цвет</td>
+				<td>
+					
+					<input type="checkbox" name="cl[]" value="blue" checked class="ch_b" id="blue_ch"><label for="blue_ch"> Синий</label><br>
+					<input type="checkbox" name="cl[]" value="red" id="red_ch"><label for="red_ch"> Красный</label><br>
+					<input type="checkbox" name="cl[]" value="green" id="green_ch"><label for="green_ch"> Зеленый</label>
+				</td>
+			</tr>
+			<tr>
+				<td class="desc">Размер</td>
+				<td>
+					<select name="sz" size="1" class="sel_blc">
+						<option></option>
+						<option value="small">Маленький</option>
+						<option value="medium">Средний</option>
+						<option value="big">Большой</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td class="desc">Комментарий</td>
+				<td>
+					<textarea name="cm" placeholder="Введите коментарий" class="com_area"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td class="desc">Номер телефона</td>
+				<td>
+					<input type="tel" name="tn" value="+7" class="block_fr">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" name="sb" value="Отправить" id="sub_btn">
+				</td>
+			</tr>
+		</table>
+		
+	</form>
+</body>
+</html>

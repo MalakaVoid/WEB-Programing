@@ -1,0 +1,72 @@
+.desc{
+	width: 220px;
+	vertical-align: top;
+	padding: 5px 10px;
+	text-align: right;
+	
+}
+
+#sub_btn{
+	width: 240px;
+	height: 40px;
+	background-color: whitesmoke;
+	font-size: 24px;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+
+#sub_btn:hover{
+	background-color: rgb(46, 46, 46);
+	border-color: whitesmoke;
+	color: whitesmoke;
+}
+
+#main_table{
+	font-size: 24px;
+	font-family: "Verdana";
+	color: whitesmoke;
+	border-style: solid;
+	border-color: black;
+	border-radius: 20px;
+	padding: 5px;
+	background-color:rgb(46, 46, 46);
+}
+
+.block_fr{
+	font-size: 24px;
+	width: 330px;
+	border-color: whitesmoke;
+	color: whitesmoke;
+	background-color: rgb(46, 46, 46);
+}
+
+.ch_b{
+	font-size: 24px;
+	color: whitesmoke;
+	border-color: whitesmoke;
+	background-color: rgb(46, 46, 46);
+}
+
+.sel_blc{
+	width: 335px;
+	font-size: 24px;
+	border-color: whitesmoke;
+	color: whitesmoke;
+	background-color: rgb(46, 46, 46);
+}
+
+.com_area{
+	width: 330px;
+	border-color: whitesmoke;
+	height: 100px;
+	color: whitesmoke;
+	font-size: 24px;
+	background-color: rgb(46, 46, 46);
+}
+h3{
+	margin: 10px;
+}
+
+td{
+		
+}
