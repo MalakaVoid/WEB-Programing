@@ -1,11 +1,3 @@
-.desc{
-	width: 220px;
-	vertical-align: top;
-	padding: 5px 10px;
-	text-align: right;
-	
-}
-
 #sub_btn{
 	width: 240px;
 	height: 40px;
@@ -21,10 +13,13 @@
 	color: whitesmoke;
 }
 
-#main_table{
+.main_div_form{
 	font-size: 24px;
 	font-family: "Verdana";
 	color: whitesmoke;
+}
+
+#main_table{
 	border-style: solid;
 	border-color: black;
 	border-radius: 20px;
@@ -40,22 +35,23 @@
 	background-color: rgb(46, 46, 46);
 }
 
-.ch_b{
+input[type="checkbox"]{
 	font-size: 24px;
 	color: whitesmoke;
 	border-color: whitesmoke;
 	background-color: rgb(46, 46, 46);
 }
 
-.sel_blc{
+select[name="sz"]{
 	width: 335px;
 	font-size: 24px;
 	border-color: whitesmoke;
+	border-style: solid;
 	color: whitesmoke;
 	background-color: rgb(46, 46, 46);
 }
 
-.com_area{
+textarea[name="cm"]{
 	width: 330px;
 	border-color: whitesmoke;
 	height: 100px;
@@ -68,5 +64,7 @@ h3{
 }
 
 td{
-		
+	min-width: 220px;
+	vertical-align: top;
+	padding: 5px 10px;
 }
